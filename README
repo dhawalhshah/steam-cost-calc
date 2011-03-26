@@ -1,1 +1,10 @@
-Javascript to calculate the amount spent on buying games in Steam.
+JavaScript to calculate the amount spent on buying games in Steam.
+
+STEPS:
+1) Login into Steam(http://store.steampowered.com/).
+2) Click on <your nickname> account located on the top right and navigate to 'Account details'.
+3) Paste the following block of javascript code in the address bar as it is:
+
+javascript:eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('r:q h(n){o!y(g(n))&&v(n)}w d=0;3=a.x(\'b\');t(i=0;i<3.z;i++){8(3[i].4==\'s\'){6=3[i].p.u.F(1);8(h(6)){d+=g(6)}}8(3[i].4==\'5\'){5=3[i]}8(3[i].4==\'j 6\'){7=3[i]}8(3[i].4==\'m k\'){c=3[i]}}5=a.e("b");5.f="I A H G";5.4="5";7=a.e("b");7.f="$"+d.B(2);7.4="j 6";9=a.e("b");9.4="m k";9.l(7);9.l(5);C(c.D.E(9,c));',45,45,'|||divs|className|accountLabel|price|accountPrice|if|walletDiv|document|div|wallet|totalcost|createElement|innerHTML|parseFloat|isNumber||accountData|accountBalance|appendChild|accountRow||return|firstChild|function|javascript|transactionRowPrice|for|textContent|isFinite|var|getElementsByTagName|isNaN|length|spent|toFixed|void|parentNode|insertBefore|substring|Steam|on|Amount'.split('|'),0,{}))
+
+4) In the 'Your Steam Account' box on the right you should see 'Amount spent on Steam' above 'Wallet Balance'. 
